@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,99,151,206,257,307",
+                        "endColumns": "43,51,54,50,49,51",
+                        "endOffsets": "94,146,201,252,302,354"
+                    }
+                },
+                {
+                    "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "359",
+                        "endLines": "12",
+                        "endColumns": "13",
+                        "endOffsets": "631"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/incremental/mergeReleaseResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,99,151,206,257,307",
+                        "endColumns": "43,51,54,50,49,51",
+                        "endOffsets": "94,146,201,252,302,354"
+                    }
+                },
+                {
+                    "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "359",
+                        "endLines": "12",
+                        "endColumns": "13",
+                        "endOffsets": "631"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".view.fragment.SSLCMobileBankingFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mobileBankingRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSaveCards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:padding="10dp"/>
+</LinearLayout>

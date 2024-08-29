@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_barcode_scanner/intermediates/merged_res/release/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/7359a2e45f6446edfa164e3ccc776999/transformed/material-1.3.0/res/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_barcode_scanner/intermediates/merged_res/release/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/7359a2e45f6446edfa164e3ccc776999/transformed/material-1.3.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    }
+]

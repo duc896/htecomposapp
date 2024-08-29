@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mainLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/confirm_bnpl_service_text_1"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:textStyle="Normal" />
+
+                <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/confirm_bnpl_service_text_2"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:textStyle="Normal" />
+
+                <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/confirm_bnpl_service_text_3"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:textStyle="Normal" />
+
+                <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="@string/do_you_want_to_confirm_bnpl_service"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    app:textStyle="Normal" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                android:id="@+id/tvYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/custom_btn_punch_sslc"
+                android:paddingLeft="16dp"
+                android:paddingTop="10dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="10dp"
+                android:text="@string/ssl_confirm"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                app:textStyle="Bold" />
+
+            <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                android:id="@+id/tvNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingTop="10dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="10dp"
+                android:text="@string/ssl_cancel"
+                android:textColor="@color/product_text_color"
+                android:textSize="17sp"
+                app:textStyle="Bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/white_off" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/firebase_auth/intermediates/merged_res/release/layout/custom_dialog.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/8cbf109894c2443f5911a98bb16f988a/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/firebase_auth/intermediates/merged_res/release/layout/notification_template_part_time.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/8cbf109894c2443f5911a98bb16f988a/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/firebase_auth/intermediates/merged_res/release/layout/browser_actions_context_menu_page.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/d790f7855e2ef9759f35c00b4e5320e1/transformed/browser-1.4.0/res/layout/browser_actions_context_menu_page.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/firebase_auth/intermediates/merged_res/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/8cbf109894c2443f5911a98bb16f988a/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/firebase_auth/intermediates/merged_res/release/layout/browser_actions_context_menu_row.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/d790f7855e2ef9759f35c00b4e5320e1/transformed/browser-1.4.0/res/layout/browser_actions_context_menu_row.xml"
+    }
+]

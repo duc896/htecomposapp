@@ -1,0 +1,832 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.htecom.htecompos"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.READ_CONTACTS" />
+12-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:4:5-72
+12-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:4:22-69
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:5:22-77
+14    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+14-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:6:5-69
+14-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:6:22-67
+15    <uses-permission android:name="android.permission.READ_SMS" />
+15-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:7:5-66
+15-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.SEND_SMS" />
+16-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:8:5-66
+16-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:8:22-64
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:9:5-80
+17-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:9:22-78
+18    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+18-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:10:5-76
+18-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:10:22-73
+19    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+19-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:11:5-73
+19-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:11:22-70
+20    <!-- Provide required visibility configuration for API level 30 and above -->
+21    <queries>
+21-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:13:5-24:15
+22
+23        <!-- If your app checks for SMS support -->
+24        <intent>
+24-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:15:9-18:18
+25            <action android:name="android.intent.action.VIEW" />
+25-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:16:13-65
+25-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:16:21-62
+26
+27            <data android:scheme="sms" />
+27-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:17:13-42
+27-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:17:19-39
+28        </intent>
+29        <!-- If your app checks for call support -->
+30        <intent>
+30-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:20:9-23:18
+31            <action android:name="android.intent.action.VIEW" />
+31-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:16:13-65
+31-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:16:21-62
+32
+33            <data android:scheme="tel" />
+33-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:17:13-42
+33-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:17:19-39
+34        </intent>
+35        <intent>
+35-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+36            <action android:name="android.support.customtabs.action.CustomTabsService" />
+36-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-90
+36-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-87
+37        </intent> <!-- Specific apps you interact with, eg: -->
+38        <package android:name="com.paytm.pgsdk.TransactionManager.PAYTM_APP_PACKAGE" />
+38-->[com.paytm.appinvokesdk:appinvokesdk:1.7.1] /Users/damquangduc/.gradle/caches/transforms-3/af8902567336bcabd8e1814d9995c93f/transformed/jetified-appinvokesdk-1.7.1/AndroidManifest.xml:12:9-88
+38-->[com.paytm.appinvokesdk:appinvokesdk:1.7.1] /Users/damquangduc/.gradle/caches/transforms-3/af8902567336bcabd8e1814d9995c93f/transformed/jetified-appinvokesdk-1.7.1/AndroidManifest.xml:12:18-85
+39        <!--
+40             Specific intents you query for,
+41             eg: for a custom share UI
+42        -->
+43        <intent>
+43-->[com.paytm.appinvokesdk:appinvokesdk:1.7.1] /Users/damquangduc/.gradle/caches/transforms-3/af8902567336bcabd8e1814d9995c93f/transformed/jetified-appinvokesdk-1.7.1/AndroidManifest.xml:17:9-19:18
+44            <action android:name="android.intent.action.MAIN" />
+44-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:54:17-68
+44-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:54:25-66
+45        </intent>
+46    </queries>
+47
+48    <uses-permission android:name="android.permission.BLUETOOTH" />
+48-->[:bluetooth_thermal_printer] /Users/damquangduc/Projects/htecomposapp/build/bluetooth_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
+48-->[:bluetooth_thermal_printer] /Users/damquangduc/Projects/htecomposapp/build/bluetooth_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-65
+49    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+49-->[:bluetooth_thermal_printer] /Users/damquangduc/Projects/htecomposapp/build/bluetooth_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-74
+49-->[:bluetooth_thermal_printer] /Users/damquangduc/Projects/htecomposapp/build/bluetooth_thermal_printer/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-71
+50    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+50-->[:nb_utils] /Users/damquangduc/Projects/htecomposapp/build/nb_utils/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-79
+50-->[:nb_utils] /Users/damquangduc/Projects/htecomposapp/build/nb_utils/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-76
+51    <uses-permission android:name="android.permission.CAMERA" />
+51-->[:flutter_barcode_scanner] /Users/damquangduc/Projects/htecomposapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
+51-->[:flutter_barcode_scanner] /Users/damquangduc/Projects/htecomposapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-62
+52
+53    <uses-feature android:name="android.hardware.camera" />
+53-->[:flutter_barcode_scanner] /Users/damquangduc/Projects/htecomposapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-60
+53-->[:flutter_barcode_scanner] /Users/damquangduc/Projects/htecomposapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:11:19-57
+54
+55    <uses-permission android:name="android.permission.FLASHLIGHT" />
+55-->[:flutter_barcode_scanner] /Users/damquangduc/Projects/htecomposapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-69
+55-->[:flutter_barcode_scanner] /Users/damquangduc/Projects/htecomposapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-66
+56    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+56-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/damquangduc/.gradle/caches/transforms-3/5f747f711ac1e4148ba5be01a0d7edf5/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+56-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/damquangduc/.gradle/caches/transforms-3/5f747f711ac1e4148ba5be01a0d7edf5/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+57    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+57-->[com.paytm.easypay:easypay-appinvoke:1.8.0] /Users/damquangduc/.gradle/caches/transforms-3/4d07d1f06e14df40525272981b916372/transformed/jetified-easypay-appinvoke-1.8.0/AndroidManifest.xml:10:5-75
+57-->[com.paytm.easypay:easypay-appinvoke:1.8.0] /Users/damquangduc/.gradle/caches/transforms-3/4d07d1f06e14df40525272981b916372/transformed/jetified-easypay-appinvoke-1.8.0/AndroidManifest.xml:10:22-72
+58    <uses-permission android:name="android.permission.WAKE_LOCK" />
+58-->[com.paytm.easypay:easypay-appinvoke:1.8.0] /Users/damquangduc/.gradle/caches/transforms-3/4d07d1f06e14df40525272981b916372/transformed/jetified-easypay-appinvoke-1.8.0/AndroidManifest.xml:11:5-68
+58-->[com.paytm.easypay:easypay-appinvoke:1.8.0] /Users/damquangduc/.gradle/caches/transforms-3/4d07d1f06e14df40525272981b916372/transformed/jetified-easypay-appinvoke-1.8.0/AndroidManifest.xml:11:22-65
+59
+60    <permission
+60-->[androidx.core:core:1.10.1] /Users/damquangduc/.gradle/caches/transforms-3/bc7fc27bb122909d9130753472b2dd0d/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+61        android:name="com.htecom.htecompos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+61-->[androidx.core:core:1.10.1] /Users/damquangduc/.gradle/caches/transforms-3/bc7fc27bb122909d9130753472b2dd0d/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+62        android:protectionLevel="signature" />
+62-->[androidx.core:core:1.10.1] /Users/damquangduc/.gradle/caches/transforms-3/bc7fc27bb122909d9130753472b2dd0d/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+63
+64    <uses-permission android:name="com.htecom.htecompos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- <uses-permission android:name="android.permission.NFC" /> -->
+64-->[androidx.core:core:1.10.1] /Users/damquangduc/.gradle/caches/transforms-3/bc7fc27bb122909d9130753472b2dd0d/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+64-->[androidx.core:core:1.10.1] /Users/damquangduc/.gradle/caches/transforms-3/bc7fc27bb122909d9130753472b2dd0d/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+65    <!-- <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS" /> -->
+66    <supports-screens
+66-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:13:5-17:39
+67        android:anyDensity="true"
+67-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:14:9-34
+68        android:largeScreens="true"
+68-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:15:9-36
+69        android:normalScreens="true"
+69-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:16:9-37
+70        android:smallScreens="true" />
+70-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:17:9-36
+71
+72    <application
+72-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:26:4-63:19
+73        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+73-->[androidx.core:core:1.10.1] /Users/damquangduc/.gradle/caches/transforms-3/bc7fc27bb122909d9130753472b2dd0d/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+74        android:extractNativeLibs="false"
+75        android:icon="@mipmap/ic_launcher"
+75-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:28:9-43
+76        android:label="HTECOM POS"
+76-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:27:9-35
+77        android:largeHeap="true"
+77-->[:flutter_barcode_scanner] /Users/damquangduc/Projects/htecomposapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-33
+78        android:theme="@style/Theme.AppCompat.NoActionBar" >
+78-->[:flutter_barcode_scanner] /Users/damquangduc/Projects/htecomposapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-59
+79        <activity
+79-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:29:9-57:20
+80            android:name="com.maantechnology.salesprosaasmain.MainActivity"
+80-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:30:13-41
+81            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+81-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:33:13-163
+82            android:hardwareAccelerated="true"
+82-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:34:13-47
+83            android:launchMode="singleTop"
+83-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:31:13-43
+84            android:theme="@style/LaunchTheme"
+84-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:32:13-47
+85            android:windowSoftInputMode="adjustResize" >
+85-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:35:13-55
+86
+87            <!--
+88                 Specifies an Android theme to apply to this Activity as soon as
+89                 the Android process has started. This theme is visible to the user
+90                 while the Flutter UI initializes. After that, this theme continues
+91                 to determine the Window background behind the Flutter UI.
+92            -->
+93            <meta-data
+93-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:40:13-43:17
+94                android:name="io.flutter.embedding.android.NormalTheme"
+94-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:41:15-70
+95                android:resource="@style/NormalTheme" />
+95-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:42:15-52
+96            <!--
+97                 Displays an Android View that continues showing the launch screen
+98                 Drawable until Flutter paints its first frame, then this splash
+99                 screen fades out. A splash screen is useful to avoid any visual
+100                 gap between the end of Android's launch screen and the painting of
+101                 Flutter's first frame.
+102            -->
+103            <meta-data
+103-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:49:13-52:17
+104                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+104-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:50:15-79
+105                android:resource="@drawable/launch_background" />
+105-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:51:15-61
+106
+107            <intent-filter>
+107-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:53:13-56:29
+108                <action android:name="android.intent.action.MAIN" />
+108-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:54:17-68
+108-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:54:25-66
+109
+110                <category android:name="android.intent.category.LAUNCHER" />
+110-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:55:17-76
+110-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:55:27-74
+111            </intent-filter>
+112        </activity>
+113        <!--
+114             Don't delete the meta-data below.
+115             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+116        -->
+117        <meta-data
+117-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:60:9-62:33
+118            android:name="flutterEmbedding"
+118-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:61:13-44
+119            android:value="2" />
+119-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:62:13-30
+120
+121        <service
+121-->[:firebase_auth] /Users/damquangduc/Projects/htecomposapp/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+122            android:name="com.google.firebase.components.ComponentDiscoveryService"
+122-->[:firebase_auth] /Users/damquangduc/Projects/htecomposapp/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+123            android:directBootAware="true"
+123-->[com.google.firebase:firebase-common:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/6a62d355f6fbf4147c7eb99941c84d3a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+124            android:exported="false" >
+124-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:68:13-37
+125            <meta-data
+125-->[:firebase_auth] /Users/damquangduc/Projects/htecomposapp/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+126                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+126-->[:firebase_auth] /Users/damquangduc/Projects/htecomposapp/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[:firebase_auth] /Users/damquangduc/Projects/htecomposapp/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+128            <meta-data
+128-->[:firebase_database] /Users/damquangduc/Projects/htecomposapp/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+129                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+129-->[:firebase_database] /Users/damquangduc/Projects/htecomposapp/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-127
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[:firebase_database] /Users/damquangduc/Projects/htecomposapp/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+131            <meta-data
+131-->[:firebase_storage] /Users/damquangduc/Projects/htecomposapp/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+132                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+132-->[:firebase_storage] /Users/damquangduc/Projects/htecomposapp/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-126
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[:firebase_storage] /Users/damquangduc/Projects/htecomposapp/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+134            <meta-data
+134-->[:firebase_core] /Users/damquangduc/Projects/htecomposapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+135                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+135-->[:firebase_core] /Users/damquangduc/Projects/htecomposapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[:firebase_core] /Users/damquangduc/Projects/htecomposapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:69:13-71:85
+138                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+138-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:70:17-109
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:71:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-storage:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a254eca89780f8d28ef9e6d25301ef9c/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:30:13-32:85
+141                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+141-->[com.google.firebase:firebase-storage:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a254eca89780f8d28ef9e6d25301ef9c/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:31:17-118
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-storage:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a254eca89780f8d28ef9e6d25301ef9c/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:32:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-storage:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a254eca89780f8d28ef9e6d25301ef9c/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:33:13-35:85
+144                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+144-->[com.google.firebase:firebase-storage:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a254eca89780f8d28ef9e6d25301ef9c/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:34:17-107
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-storage:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a254eca89780f8d28ef9e6d25301ef9c/transformed/jetified-firebase-storage-21.0.0/AndroidManifest.xml:35:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/damquangduc/.gradle/caches/transforms-3/4d4517c963bae3480344d8ec74a49348/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:25:13-27:85
+147                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+147-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/damquangduc/.gradle/caches/transforms-3/4d4517c963bae3480344d8ec74a49348/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:26:17-120
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/damquangduc/.gradle/caches/transforms-3/4d4517c963bae3480344d8ec74a49348/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:27:17-82
+149            <meta-data
+149-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/damquangduc/.gradle/caches/transforms-3/4d4517c963bae3480344d8ec74a49348/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:28:13-30:85
+150                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+150-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/damquangduc/.gradle/caches/transforms-3/4d4517c963bae3480344d8ec74a49348/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:29:17-117
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/damquangduc/.gradle/caches/transforms-3/4d4517c963bae3480344d8ec74a49348/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:30:17-82
+152            <meta-data
+152-->[com.google.firebase:firebase-database:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/b8df271c5ca016933c4ec36bcfa4ab30/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:29:13-31:85
+153                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+153-->[com.google.firebase:firebase-database:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/b8df271c5ca016933c4ec36bcfa4ab30/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:30:17-120
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-database:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/b8df271c5ca016933c4ec36bcfa4ab30/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:31:17-82
+155            <meta-data
+155-->[com.google.firebase:firebase-database:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/b8df271c5ca016933c4ec36bcfa4ab30/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:32:13-34:85
+156                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+156-->[com.google.firebase:firebase-database:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/b8df271c5ca016933c4ec36bcfa4ab30/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:33:17-109
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-database:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/b8df271c5ca016933c4ec36bcfa4ab30/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:34:17-82
+158            <meta-data
+158-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/8f47e722c67728bc7003755825b3e6dc/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+159                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+159-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/8f47e722c67728bc7003755825b3e6dc/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/8f47e722c67728bc7003755825b3e6dc/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-common:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/6a62d355f6fbf4147c7eb99941c84d3a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+162                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+162-->[com.google.firebase:firebase-common:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/6a62d355f6fbf4147c7eb99941c84d3a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-common:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/6a62d355f6fbf4147c7eb99941c84d3a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+164        </service>
+165
+166        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
+166-->[:flutter_barcode_scanner] /Users/damquangduc/Projects/htecomposapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-91
+166-->[:flutter_barcode_scanner] /Users/damquangduc/Projects/htecomposapp/build/flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:18:19-88
+167        <activity
+167-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
+168            android:name="com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity"
+168-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-112
+169            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+169-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
+170            android:exported="false"
+170-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+171            android:theme="@style/AppTheme" />
+171-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
+172        <activity
+172-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
+173            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity"
+173-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-120
+174            android:exported="false"
+174-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+175            android:theme="@style/ThemeTransparent" />
+175-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
+176        <activity
+176-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
+177            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity"
+177-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-114
+178            android:exported="false"
+178-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-37
+179            android:theme="@style/ThemeTransparent" />
+179-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
+180        <activity
+180-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
+181            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+181-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-134
+182            android:exported="false"
+182-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-37
+183            android:launchMode="singleInstance"
+183-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
+184            android:theme="@style/ThemeTransparent" />
+184-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
+185        <activity
+185-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
+186            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+186-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-128
+187            android:exported="false"
+187-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-37
+188            android:launchMode="singleInstance"
+188-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
+189            android:theme="@style/ThemeTransparent" />
+189-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
+190
+191        <receiver
+191-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
+192            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver"
+192-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-119
+193            android:enabled="true"
+193-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
+194            android:exported="false" />
+194-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
+195
+196        <meta-data
+196-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
+197            android:name="io.flutter.embedded_views_preview"
+197-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
+198            android:value="true" />
+198-->[:flutter_inappwebview_android] /Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
+199
+200        <provider
+200-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-19:20
+201            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+201-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-82
+202            android:authorities="com.htecom.htecompos.flutter.image_provider"
+202-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-74
+203            android:exported="false"
+203-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+204            android:grantUriPermissions="true" >
+204-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-47
+205            <meta-data
+205-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:75
+206                android:name="android.support.FILE_PROVIDER_PATHS"
+206-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+207                android:resource="@xml/flutter_image_picker_file_paths" />
+207-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-72
+208        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+209        <service
+209-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-33:19
+210            android:name="com.google.android.gms.metadata.ModuleDependencies"
+210-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-78
+211            android:enabled="false"
+211-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-36
+212            android:exported="false" >
+212-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+213            <intent-filter>
+213-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-28:29
+214                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+214-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-94
+214-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-91
+215            </intent-filter>
+216
+217            <meta-data
+217-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-32:36
+218                android:name="photopicker_activity:0:required"
+218-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-63
+219                android:value="" />
+219-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-33
+220        </service>
+221
+222        <provider
+222-->[:open_file] /Users/damquangduc/Projects/htecomposapp/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-21:20
+223            android:name="com.crazecoder.openfile.FileProvider"
+223-->[:open_file] /Users/damquangduc/Projects/htecomposapp/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+224            android:authorities="com.htecom.htecompos.fileProvider.com.crazecoder.openfile"
+224-->[:open_file] /Users/damquangduc/Projects/htecomposapp/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-88
+225            android:exported="false"
+225-->[:open_file] /Users/damquangduc/Projects/htecomposapp/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+226            android:grantUriPermissions="true"
+226-->[:open_file] /Users/damquangduc/Projects/htecomposapp/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-47
+227            android:requestLegacyExternalStorage="true" >
+227-->[:open_file] /Users/damquangduc/Projects/htecomposapp/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-56
+228            <meta-data
+228-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:75
+229                android:name="android.support.FILE_PROVIDER_PATHS"
+229-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+230                android:resource="@xml/filepaths" />
+230-->[:image_picker_android] /Users/damquangduc/Projects/htecomposapp/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-72
+231        </provider>
+232
+233        <activity
+233-->[:url_launcher_android] /Users/damquangduc/Projects/htecomposapp/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+234            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+234-->[:url_launcher_android] /Users/damquangduc/Projects/htecomposapp/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+235            android:exported="false"
+235-->[:url_launcher_android] /Users/damquangduc/Projects/htecomposapp/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+236            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+236-->[:url_launcher_android] /Users/damquangduc/Projects/htecomposapp/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+237        <activity
+237-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:29:9-46:20
+238            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+238-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:30:13-80
+239            android:excludeFromRecents="true"
+239-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:31:13-46
+240            android:exported="true"
+240-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:32:13-36
+241            android:launchMode="singleTask"
+241-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:33:13-44
+242            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+242-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:34:13-72
+243            <intent-filter>
+243-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:35:13-45:29
+244                <action android:name="android.intent.action.VIEW" />
+244-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:16:13-65
+244-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:16:21-62
+245
+246                <category android:name="android.intent.category.DEFAULT" />
+246-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+246-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+247                <category android:name="android.intent.category.BROWSABLE" />
+247-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+247-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+248
+249                <data
+249-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:17:13-42
+250                    android:host="firebase.auth"
+251                    android:path="/"
+252                    android:scheme="genericidp" />
+252-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:17:19-39
+253            </intent-filter>
+254        </activity>
+255        <activity
+255-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:47:9-64:20
+256            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+256-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:48:13-79
+257            android:excludeFromRecents="true"
+257-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:49:13-46
+258            android:exported="true"
+258-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:50:13-36
+259            android:launchMode="singleTask"
+259-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:51:13-44
+260            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+260-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:52:13-72
+261            <intent-filter>
+261-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:53:13-63:29
+262                <action android:name="android.intent.action.VIEW" />
+262-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:16:13-65
+262-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:16:21-62
+263
+264                <category android:name="android.intent.category.DEFAULT" />
+264-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+264-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+265                <category android:name="android.intent.category.BROWSABLE" />
+265-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+265-->[com.google.firebase:firebase-auth:23.0.0] /Users/damquangduc/.gradle/caches/transforms-3/a11aa07caa311c8fade63afef0a6ab1f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+266
+267                <data
+267-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:17:13-42
+268                    android:host="firebase.auth"
+269                    android:path="/"
+270                    android:scheme="recaptcha" />
+270-->/Users/damquangduc/Projects/htecomposapp/android/app/src/main/AndroidManifest.xml:17:19-39
+271            </intent-filter>
+272        </activity>
+273
+274        <provider
+274-->[com.google.firebase:firebase-common:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/6a62d355f6fbf4147c7eb99941c84d3a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+275            android:name="com.google.firebase.provider.FirebaseInitProvider"
+275-->[com.google.firebase:firebase-common:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/6a62d355f6fbf4147c7eb99941c84d3a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+276            android:authorities="com.htecom.htecompos.firebaseinitprovider"
+276-->[com.google.firebase:firebase-common:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/6a62d355f6fbf4147c7eb99941c84d3a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+277            android:directBootAware="true"
+277-->[com.google.firebase:firebase-common:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/6a62d355f6fbf4147c7eb99941c84d3a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+278            android:exported="false"
+278-->[com.google.firebase:firebase-common:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/6a62d355f6fbf4147c7eb99941c84d3a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+279            android:initOrder="100" />
+279-->[com.google.firebase:firebase-common:21.0.0] /Users/damquangduc/.gradle/caches/transforms-3/6a62d355f6fbf4147c7eb99941c84d3a/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+280
+281        <service
+281-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/damquangduc/.gradle/caches/transforms-3/1bedad24773e97c875817e17159f7570/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+282            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+282-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/damquangduc/.gradle/caches/transforms-3/1bedad24773e97c875817e17159f7570/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+283            android:enabled="true"
+283-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/damquangduc/.gradle/caches/transforms-3/1bedad24773e97c875817e17159f7570/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+284            android:exported="false" >
+284-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/damquangduc/.gradle/caches/transforms-3/1bedad24773e97c875817e17159f7570/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+285            <meta-data
+285-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/damquangduc/.gradle/caches/transforms-3/1bedad24773e97c875817e17159f7570/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+286                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+286-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/damquangduc/.gradle/caches/transforms-3/1bedad24773e97c875817e17159f7570/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+287                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+287-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/damquangduc/.gradle/caches/transforms-3/1bedad24773e97c875817e17159f7570/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+288        </service>
+289
+290        <activity
+290-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/damquangduc/.gradle/caches/transforms-3/1bedad24773e97c875817e17159f7570/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+291            android:name="androidx.credentials.playservices.HiddenActivity"
+291-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/damquangduc/.gradle/caches/transforms-3/1bedad24773e97c875817e17159f7570/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+292            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+292-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/damquangduc/.gradle/caches/transforms-3/1bedad24773e97c875817e17159f7570/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+293            android:enabled="true"
+293-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/damquangduc/.gradle/caches/transforms-3/1bedad24773e97c875817e17159f7570/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+294            android:exported="false"
+294-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/damquangduc/.gradle/caches/transforms-3/1bedad24773e97c875817e17159f7570/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+295            android:fitsSystemWindows="true"
+295-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/damquangduc/.gradle/caches/transforms-3/1bedad24773e97c875817e17159f7570/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+296            android:theme="@style/Theme.Hidden" >
+296-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/damquangduc/.gradle/caches/transforms-3/1bedad24773e97c875817e17159f7570/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+297        </activity>
+298        <activity
+298-->[com.paytm.appinvokesdk:appinvokesdk:1.7.1] /Users/damquangduc/.gradle/caches/transforms-3/af8902567336bcabd8e1814d9995c93f/transformed/jetified-appinvokesdk-1.7.1/AndroidManifest.xml:23:9-26:66
+299            android:name="com.paytm.pgsdk.PaytmPGActivity"
+299-->[com.paytm.appinvokesdk:appinvokesdk:1.7.1] /Users/damquangduc/.gradle/caches/transforms-3/af8902567336bcabd8e1814d9995c93f/transformed/jetified-appinvokesdk-1.7.1/AndroidManifest.xml:24:13-59
+300            android:screenOrientation="portrait"
+300-->[com.paytm.appinvokesdk:appinvokesdk:1.7.1] /Users/damquangduc/.gradle/caches/transforms-3/af8902567336bcabd8e1814d9995c93f/transformed/jetified-appinvokesdk-1.7.1/AndroidManifest.xml:25:13-49
+301            android:theme="@style/Theme.AppCompat.NoActionBar" />
+301-->[com.paytm.appinvokesdk:appinvokesdk:1.7.1] /Users/damquangduc/.gradle/caches/transforms-3/af8902567336bcabd8e1814d9995c93f/transformed/jetified-appinvokesdk-1.7.1/AndroidManifest.xml:26:13-63
+302        <activity
+302-->[com.paytm.appinvokesdk:appinvokesdk:1.7.1] /Users/damquangduc/.gradle/caches/transforms-3/af8902567336bcabd8e1814d9995c93f/transformed/jetified-appinvokesdk-1.7.1/AndroidManifest.xml:27:9-29:63
+303            android:name="com.paytm.pgsdk.AioMatchUserActivity"
+303-->[com.paytm.appinvokesdk:appinvokesdk:1.7.1] /Users/damquangduc/.gradle/caches/transforms-3/af8902567336bcabd8e1814d9995c93f/transformed/jetified-appinvokesdk-1.7.1/AndroidManifest.xml:28:13-64
+304            android:theme="@style/TransparentActivityTheme" />
+304-->[com.paytm.appinvokesdk:appinvokesdk:1.7.1] /Users/damquangduc/.gradle/caches/transforms-3/af8902567336bcabd8e1814d9995c93f/transformed/jetified-appinvokesdk-1.7.1/AndroidManifest.xml:29:13-60
+305
+306        <service
+306-->[com.paytm.easypay:easypay-appinvoke:1.8.0] /Users/damquangduc/.gradle/caches/transforms-3/4d07d1f06e14df40525272981b916372/transformed/jetified-easypay-appinvoke-1.8.0/AndroidManifest.xml:14:9-17:72
+307            android:name="easypay.appinvoke.utils.EasyPayConfigDownloader"
+307-->[com.paytm.easypay:easypay-appinvoke:1.8.0] /Users/damquangduc/.gradle/caches/transforms-3/4d07d1f06e14df40525272981b916372/transformed/jetified-easypay-appinvoke-1.8.0/AndroidManifest.xml:15:13-75
+308            android:exported="false"
+308-->[com.paytm.easypay:easypay-appinvoke:1.8.0] /Users/damquangduc/.gradle/caches/transforms-3/4d07d1f06e14df40525272981b916372/transformed/jetified-easypay-appinvoke-1.8.0/AndroidManifest.xml:16:13-37
+309            android:permission="android.permission.BIND_JOB_SERVICE" />
+309-->[com.paytm.easypay:easypay-appinvoke:1.8.0] /Users/damquangduc/.gradle/caches/transforms-3/4d07d1f06e14df40525272981b916372/transformed/jetified-easypay-appinvoke-1.8.0/AndroidManifest.xml:17:13-69
+310        <service
+310-->[com.paytm.easypay:easypay-appinvoke:1.8.0] /Users/damquangduc/.gradle/caches/transforms-3/4d07d1f06e14df40525272981b916372/transformed/jetified-easypay-appinvoke-1.8.0/AndroidManifest.xml:18:9-22:72
+311            android:name="easypay.appinvoke.utils.AnalyticsService"
+311-->[com.paytm.easypay:easypay-appinvoke:1.8.0] /Users/damquangduc/.gradle/caches/transforms-3/4d07d1f06e14df40525272981b916372/transformed/jetified-easypay-appinvoke-1.8.0/AndroidManifest.xml:19:13-68
+312            android:enabled="true"
+312-->[com.paytm.easypay:easypay-appinvoke:1.8.0] /Users/damquangduc/.gradle/caches/transforms-3/4d07d1f06e14df40525272981b916372/transformed/jetified-easypay-appinvoke-1.8.0/AndroidManifest.xml:20:13-35
+313            android:exported="false"
+313-->[com.paytm.easypay:easypay-appinvoke:1.8.0] /Users/damquangduc/.gradle/caches/transforms-3/4d07d1f06e14df40525272981b916372/transformed/jetified-easypay-appinvoke-1.8.0/AndroidManifest.xml:21:13-37
+314            android:permission="android.permission.BIND_JOB_SERVICE" />
+314-->[com.paytm.easypay:easypay-appinvoke:1.8.0] /Users/damquangduc/.gradle/caches/transforms-3/4d07d1f06e14df40525272981b916372/transformed/jetified-easypay-appinvoke-1.8.0/AndroidManifest.xml:22:13-69
+315
+316        <activity android:name="easypay.appinvoke.AnalyticsManagerInfoDisplayActivity" />
+316-->[com.paytm.easypay:easypay-appinvoke:1.8.0] /Users/damquangduc/.gradle/caches/transforms-3/4d07d1f06e14df40525272981b916372/transformed/jetified-easypay-appinvoke-1.8.0/AndroidManifest.xml:24:9-90
+316-->[com.paytm.easypay:easypay-appinvoke:1.8.0] /Users/damquangduc/.gradle/caches/transforms-3/4d07d1f06e14df40525272981b916372/transformed/jetified-easypay-appinvoke-1.8.0/AndroidManifest.xml:24:19-87
+317        <activity
+317-->[com.google.android.gms:play-services-auth:20.7.0] /Users/damquangduc/.gradle/caches/transforms-3/ea7ff96730082485e9f08ddd4a9239c8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+318            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+318-->[com.google.android.gms:play-services-auth:20.7.0] /Users/damquangduc/.gradle/caches/transforms-3/ea7ff96730082485e9f08ddd4a9239c8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+319            android:excludeFromRecents="true"
+319-->[com.google.android.gms:play-services-auth:20.7.0] /Users/damquangduc/.gradle/caches/transforms-3/ea7ff96730082485e9f08ddd4a9239c8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+320            android:exported="false"
+320-->[com.google.android.gms:play-services-auth:20.7.0] /Users/damquangduc/.gradle/caches/transforms-3/ea7ff96730082485e9f08ddd4a9239c8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+321            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+321-->[com.google.android.gms:play-services-auth:20.7.0] /Users/damquangduc/.gradle/caches/transforms-3/ea7ff96730082485e9f08ddd4a9239c8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+322        <!--
+323            Service handling Google Sign-In user revocation. For apps that do not integrate with
+324            Google Sign-In, this service will never be started.
+325        -->
+326        <service
+326-->[com.google.android.gms:play-services-auth:20.7.0] /Users/damquangduc/.gradle/caches/transforms-3/ea7ff96730082485e9f08ddd4a9239c8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+327            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+327-->[com.google.android.gms:play-services-auth:20.7.0] /Users/damquangduc/.gradle/caches/transforms-3/ea7ff96730082485e9f08ddd4a9239c8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+328            android:exported="true"
+328-->[com.google.android.gms:play-services-auth:20.7.0] /Users/damquangduc/.gradle/caches/transforms-3/ea7ff96730082485e9f08ddd4a9239c8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+329            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+329-->[com.google.android.gms:play-services-auth:20.7.0] /Users/damquangduc/.gradle/caches/transforms-3/ea7ff96730082485e9f08ddd4a9239c8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+330            android:visibleToInstantApps="true" />
+330-->[com.google.android.gms:play-services-auth:20.7.0] /Users/damquangduc/.gradle/caches/transforms-3/ea7ff96730082485e9f08ddd4a9239c8/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+331
+332        <activity
+332-->[com.google.android.gms:play-services-base:18.1.0] /Users/damquangduc/.gradle/caches/transforms-3/0ce5b9a2eeebcc59f515f2175a6446bd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+333            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+333-->[com.google.android.gms:play-services-base:18.1.0] /Users/damquangduc/.gradle/caches/transforms-3/0ce5b9a2eeebcc59f515f2175a6446bd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+334            android:exported="false"
+334-->[com.google.android.gms:play-services-base:18.1.0] /Users/damquangduc/.gradle/caches/transforms-3/0ce5b9a2eeebcc59f515f2175a6446bd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+335            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+335-->[com.google.android.gms:play-services-base:18.1.0] /Users/damquangduc/.gradle/caches/transforms-3/0ce5b9a2eeebcc59f515f2175a6446bd/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+336
+337        <meta-data
+337-->[com.google.android.gms:play-services-basement:18.3.0] /Users/damquangduc/.gradle/caches/transforms-3/1172db14d6b59e87849077847df15f2f/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+338            android:name="com.google.android.gms.version"
+338-->[com.google.android.gms:play-services-basement:18.3.0] /Users/damquangduc/.gradle/caches/transforms-3/1172db14d6b59e87849077847df15f2f/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+339            android:value="@integer/google_play_services_version" />
+339-->[com.google.android.gms:play-services-basement:18.3.0] /Users/damquangduc/.gradle/caches/transforms-3/1172db14d6b59e87849077847df15f2f/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+340
+341        <provider
+341-->[androidx.emoji2:emoji2:1.2.0] /Users/damquangduc/.gradle/caches/transforms-3/c80564d4a1eb0d7e561ef5604f94c535/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+342            android:name="androidx.startup.InitializationProvider"
+342-->[androidx.emoji2:emoji2:1.2.0] /Users/damquangduc/.gradle/caches/transforms-3/c80564d4a1eb0d7e561ef5604f94c535/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+343            android:authorities="com.htecom.htecompos.androidx-startup"
+343-->[androidx.emoji2:emoji2:1.2.0] /Users/damquangduc/.gradle/caches/transforms-3/c80564d4a1eb0d7e561ef5604f94c535/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+344            android:exported="false" >
+344-->[androidx.emoji2:emoji2:1.2.0] /Users/damquangduc/.gradle/caches/transforms-3/c80564d4a1eb0d7e561ef5604f94c535/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+345            <meta-data
+345-->[androidx.emoji2:emoji2:1.2.0] /Users/damquangduc/.gradle/caches/transforms-3/c80564d4a1eb0d7e561ef5604f94c535/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+346                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+346-->[androidx.emoji2:emoji2:1.2.0] /Users/damquangduc/.gradle/caches/transforms-3/c80564d4a1eb0d7e561ef5604f94c535/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+347                android:value="androidx.startup" />
+347-->[androidx.emoji2:emoji2:1.2.0] /Users/damquangduc/.gradle/caches/transforms-3/c80564d4a1eb0d7e561ef5604f94c535/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+348            <meta-data
+348-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/damquangduc/.gradle/caches/transforms-3/aec347852b44b77cdd9b96f9b582cbab/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+349                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+349-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/damquangduc/.gradle/caches/transforms-3/aec347852b44b77cdd9b96f9b582cbab/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+350                android:value="androidx.startup" />
+350-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/damquangduc/.gradle/caches/transforms-3/aec347852b44b77cdd9b96f9b582cbab/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+351            <meta-data
+351-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+352                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+352-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+353                android:value="androidx.startup" />
+353-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+354        </provider>
+355
+356        <uses-library
+356-->[androidx.window:window:1.0.0-beta04] /Users/damquangduc/.gradle/caches/transforms-3/9db4bcf81ca951ca7467928fd8cb27a8/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+357            android:name="androidx.window.extensions"
+357-->[androidx.window:window:1.0.0-beta04] /Users/damquangduc/.gradle/caches/transforms-3/9db4bcf81ca951ca7467928fd8cb27a8/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+358            android:required="false" />
+358-->[androidx.window:window:1.0.0-beta04] /Users/damquangduc/.gradle/caches/transforms-3/9db4bcf81ca951ca7467928fd8cb27a8/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+359        <uses-library
+359-->[androidx.window:window:1.0.0-beta04] /Users/damquangduc/.gradle/caches/transforms-3/9db4bcf81ca951ca7467928fd8cb27a8/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+360            android:name="androidx.window.sidecar"
+360-->[androidx.window:window:1.0.0-beta04] /Users/damquangduc/.gradle/caches/transforms-3/9db4bcf81ca951ca7467928fd8cb27a8/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+361            android:required="false" />
+361-->[androidx.window:window:1.0.0-beta04] /Users/damquangduc/.gradle/caches/transforms-3/9db4bcf81ca951ca7467928fd8cb27a8/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+362
+363        <receiver
+363-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+364            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+364-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+365            android:directBootAware="false"
+365-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+366            android:enabled="true"
+366-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+367            android:exported="true"
+367-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+368            android:permission="android.permission.DUMP" >
+368-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+369            <intent-filter>
+369-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+370                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+370-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+370-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+371            </intent-filter>
+372            <intent-filter>
+372-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+373                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+373-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+373-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+374            </intent-filter>
+375            <intent-filter>
+375-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+376                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+376-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+376-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+377            </intent-filter>
+378            <intent-filter>
+378-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+379                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+379-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+379-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/damquangduc/.gradle/caches/transforms-3/891cc1a5f4720aac38b78558767570f0/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+380            </intent-filter>
+381        </receiver> <!-- <activity -->
+382        <!-- android:name=".view.activity.SSLPayLaterActivitySSLC" -->
+383        <!-- android:exported="false"> -->
+384        <!-- <meta-data -->
+385        <!-- android:name="android.app.lib_name" -->
+386        <!-- android:value="" /> -->
+387        <!-- </activity> -->
+388        <activity
+388-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:28:9-33:55
+389            android:name="com.sslwireless.sslcommerzlibrary.view.activity.SSLPayLaterActivitySSLC"
+389-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:29:13-99
+390            android:exported="false"
+390-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:30:13-37
+391            android:screenOrientation="portrait"
+391-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:31:13-49
+392            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+392-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:32:13-69
+393            android:windowSoftInputMode="adjustPan" />
+393-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:33:13-52
+394        <activity
+394-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:34:9-40:67
+395            android:name="com.sslwireless.sslcommerzlibrary.view.activity.MainUIActivitySSLC"
+395-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:35:13-94
+396            android:configChanges="layoutDirection|locale"
+396-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:36:13-59
+397            android:exported="true"
+397-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:37:13-36
+398            android:screenOrientation="portrait"
+398-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:38:13-49
+399            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+399-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:39:13-69
+400            android:windowSoftInputMode="stateHidden|adjustPan" />
+400-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:40:13-64
+401        <activity
+401-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:41:9-46:58
+402            android:name="com.sslwireless.sslcommerzlibrary.view.activity.WebViewActivitySSLC"
+402-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:42:13-95
+403            android:exported="false"
+403-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:43:13-37
+404            android:screenOrientation="portrait"
+404-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:44:13-49
+405            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+405-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:45:13-69
+406            android:windowSoftInputMode="adjustResize" />
+406-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:46:13-55
+407        <activity
+407-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:47:9-52:55
+408            android:name="com.sslwireless.sslcommerzlibrary.view.activity.SSLOffersActivitySSLC"
+408-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:48:13-97
+409            android:exported="false"
+409-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:49:13-37
+410            android:screenOrientation="portrait"
+410-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:50:13-49
+411            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+411-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:51:13-69
+412            android:windowSoftInputMode="adjustPan" />
+412-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:52:13-52
+413        <activity
+413-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:53:9-58:55
+414            android:name="com.sslwireless.sslcommerzlibrary.view.activity.FAQActivitySSLC"
+414-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:54:13-91
+415            android:exported="false"
+415-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:55:13-37
+416            android:screenOrientation="portrait"
+416-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:56:13-49
+417            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+417-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:57:13-69
+418            android:windowSoftInputMode="adjustPan" />
+418-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:58:13-52
+419        <activity
+419-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:59:9-64:55
+420            android:name="com.sslwireless.sslcommerzlibrary.view.activity.SupportActivitySSLC"
+420-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:60:13-95
+421            android:exported="false"
+421-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:61:13-37
+422            android:screenOrientation="portrait"
+422-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:62:13-49
+423            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+423-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:63:13-69
+424            android:windowSoftInputMode="adjustPan" />
+424-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:64:13-52
+425        <activity
+425-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:65:9-70:55
+426            android:name="com.sslwireless.sslcommerzlibrary.view.activity.ActivityReadNFC"
+426-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:66:13-91
+427            android:exported="false"
+427-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:67:13-37
+428            android:screenOrientation="portrait"
+428-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:68:13-49
+429            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+429-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:69:13-69
+430            android:windowSoftInputMode="adjustPan" /> <!-- <activity -->
+430-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:70:13-52
+431        <!-- android:name=".view.activity.NFCCardReading" -->
+432        <!-- android:screenOrientation="portrait" -->
+433        <!-- android:hardwareAccelerated="false"> -->
+434        <!-- <intent-filter> -->
+435        <!-- <action android:name="android.nfc.action.TECH_DISCOVERED" /> -->
+436        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+437        <!-- </intent-filter> -->
+438        <!-- <meta-data -->
+439        <!-- android:name="android.nfc.action.TECH_DISCOVERED" -->
+440        <!-- android:resource="@xml/nfc_tech_filter" /> -->
+441        <!-- </activity> -->
+442        <receiver
+442-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:82:9-88:20
+443            android:name="com.sslwireless.sslcommerzlibrary.view.custom.SSLSmsBroadcastReceiver"
+443-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:83:13-97
+444            android:exported="true" >
+444-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:84:13-36
+445            <intent-filter>
+445-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:85:13-87:29
+446                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
+446-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:86:17-94
+446-->[:sslcommerzlibrary:] /Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/AndroidManifest.xml:86:25-91
+447            </intent-filter>
+448        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+449        <activity
+449-->[com.google.android.play:core-common:2.0.3] /Users/damquangduc/.gradle/caches/transforms-3/b8ca04d4043cc5045e2a67b81fa77827/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+450            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+450-->[com.google.android.play:core-common:2.0.3] /Users/damquangduc/.gradle/caches/transforms-3/b8ca04d4043cc5045e2a67b81fa77827/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:15:13-93
+451            android:exported="false"
+451-->[com.google.android.play:core-common:2.0.3] /Users/damquangduc/.gradle/caches/transforms-3/b8ca04d4043cc5045e2a67b81fa77827/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:16:13-37
+452            android:stateNotNeeded="true"
+452-->[com.google.android.play:core-common:2.0.3] /Users/damquangduc/.gradle/caches/transforms-3/b8ca04d4043cc5045e2a67b81fa77827/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:17:13-42
+453            android:theme="@style/Theme.PlayCore.Transparent" />
+453-->[com.google.android.play:core-common:2.0.3] /Users/damquangduc/.gradle/caches/transforms-3/b8ca04d4043cc5045e2a67b81fa77827/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:18:13-62
+454    </application>
+455
+456</manifest>

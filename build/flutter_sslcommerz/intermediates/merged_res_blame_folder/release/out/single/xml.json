@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/xml/nfc_tech_filter.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/xml/nfc_tech_filter.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/xml/standalone_badge_gravity_bottom_end.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/xml/standalone_badge_gravity_bottom_end.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/xml/standalone_badge.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/xml/standalone_badge.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/xml/standalone_badge_gravity_top_start.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/xml/standalone_badge_gravity_top_start.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/xml/standalone_badge_gravity_bottom_start.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/xml/standalone_badge_gravity_bottom_start.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/xml/standalone_badge_offset.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/xml/standalone_badge_offset.xml"
+    }
+]

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.SSLPayLaterActivitySSLC">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/ssl_toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/bg_bnpl_card" />
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView">
+
+        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ssl_remaining_credit"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/layout1">
+
+        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:gravity="bottom"
+            android:text="৳"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+            android:id="@+id/tvRemainingCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:textStyle="bold"
+            android:text="100"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/background_tint"
+        android:max="100"
+        android:progress="45"
+        android:progressDrawable="@drawable/progress_bar"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/layout2" />
+
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar">
+
+        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="৳"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvInitialCredit"
+            app:layout_constraintStart_toStartOf="@+id/progressBar"
+            app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+            android:id="@+id/tvInitialCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:textStyle="bold"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar">
+
+        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:textStyle="bold"
+            android:text="৳"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+            android:id="@+id/tvTotalCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="500"
+            android:textColor="@color/white"
+            android:textSize="21sp" />
+    </LinearLayout>
+
+    <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+        android:id="@+id/tvExpiryDate"
+        app:layout_constraintTop_toBottomOf="@+id/layout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        android:text=""/>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnConfirmPayLater"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/ssl_congratulations"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="16dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+
+        <LinearLayout
+            android:id="@+id/layout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvPreviousDueAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Previous Due Amount"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+                <TextView
+                    android:id="@+id/tvPayBefore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pay before:"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvPreviousDueAmount" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="৳"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toStartOf="@+id/tvDueAmount"
+                    app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+                <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                    android:id="@+id/tvDueAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout4" />
+
+
+        <LinearLayout
+            android:id="@+id/layout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:text="@string/ssl_order_amount"
+                    android:textColor="@color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/divider2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="৳"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvPayLaterAmount"
+                    app:layout_constraintEnd_toStartOf="@+id/tvPayLaterAmount"
+                    app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+                <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+                    android:id="@+id/tvPayLaterAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout5" />
+
+        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+            android:id="@+id/textView16"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/ssl_by_clicking"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/btnConfirmPayLater"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <ImageView
+            android:id="@+id/imgError"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/ic_pay_later" />
+
+        <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sorry! You have not paid your due balance yet. Please pay the due through my.sslcommerz.com."
+            app:layout_constraintTop_toBottomOf="@+id/imgError" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+        android:id="@+id/btnConfirmPayLater"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/ssl_confirm_bnpl"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

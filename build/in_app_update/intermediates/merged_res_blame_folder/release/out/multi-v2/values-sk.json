@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/damquangduc/Projects/htecomposapp/build/in_app_update/intermediates/merged_res/release/values-sk/values-sk.xml",
+            "map": [
+                {
+                    "source": "/Users/damquangduc/.gradle/caches/transforms-3/8cbf109894c2443f5911a98bb16f988a/transformed/core-1.6.0/res/values-sk/values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "194",
+                        "endColumns": "100",
+                        "endOffsets": "290"
+                    }
+                },
+                {
+                    "source": "/Users/damquangduc/.gradle/caches/transforms-3/b04e1bf7204124b16af47e05be64fb32/transformed/jetified-play-services-basement-18.1.0/res/values-sk/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "134",
+                        "endOffsets": "329"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "138",
+                        "endOffsets": "189"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/damquangduc/Projects/htecomposapp/build/in_app_update/intermediates/incremental/mergeReleaseResources/merged.dir/values-sk/values-sk.xml",
+            "map": [
+                {
+                    "source": "/Users/damquangduc/.gradle/caches/transforms-3/8cbf109894c2443f5911a98bb16f988a/transformed/core-1.6.0/res/values-sk/values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "194",
+                        "endColumns": "100",
+                        "endOffsets": "290"
+                    }
+                },
+                {
+                    "source": "/Users/damquangduc/.gradle/caches/transforms-3/b04e1bf7204124b16af47e05be64fb32/transformed/jetified-play-services-basement-18.1.0/res/values-sk/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "134",
+                        "endOffsets": "329"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "138",
+                        "endOffsets": "189"
+                    }
+                }
+            ]
+        }
+    ]
+}
