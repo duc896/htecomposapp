@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/values-xxxhdpi-v4/values-xxxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/values-xxxhdpi-v4/values-xxxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "44",
+                        "endOffsets": "95"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/incremental/mergeReleaseResources/merged.dir/values-xxxhdpi-v4/values-xxxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/values-xxxhdpi-v4/values-xxxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "44",
+                        "endOffsets": "95"
+                    }
+                }
+            ]
+        }
+    ]
+}

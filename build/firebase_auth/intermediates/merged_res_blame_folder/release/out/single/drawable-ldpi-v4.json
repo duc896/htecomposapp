@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/firebase_auth/intermediates/merged_res/release/drawable-ldpi-v4/ic_password.png",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/56f182cf3e0b4d8e3165698721439035/transformed/jetified-credentials-1.2.0-rc01/res/drawable-ldpi-v4/ic_password.png"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/firebase_auth/intermediates/merged_res/release/drawable-ldpi-v4/ic_passkey.png",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/56f182cf3e0b4d8e3165698721439035/transformed/jetified-credentials-1.2.0-rc01/res/drawable-ldpi-v4/ic_passkey.png"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/firebase_auth/intermediates/merged_res/release/drawable-ldpi-v4/ic_other_sign_in.png",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/56f182cf3e0b4d8e3165698721439035/transformed/jetified-credentials-1.2.0-rc01/res/drawable-ldpi-v4/ic_other_sign_in.png"
+    }
+]

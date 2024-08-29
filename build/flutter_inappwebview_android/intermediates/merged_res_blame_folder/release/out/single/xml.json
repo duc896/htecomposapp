@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_res/release/xml/image_share_filepaths.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/87f6cb875c8187655512948a7540262d/transformed/browser-1.6.0/res/xml/image_share_filepaths.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_res/release/xml/provider_paths.xml",
+        "source": "/Users/damquangduc/.pub-cache/hosted/pub.dev/flutter_inappwebview_android-1.0.13/android/src/main/res/xml/provider_paths.xml"
+    }
+]

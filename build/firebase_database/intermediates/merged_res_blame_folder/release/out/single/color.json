@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/firebase_database/intermediates/merged_res/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/0ce5b9a2eeebcc59f515f2175a6446bd/transformed/jetified-play-services-base-18.1.0/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/firebase_database/intermediates/merged_res/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/0ce5b9a2eeebcc59f515f2175a6446bd/transformed/jetified-play-services-base-18.1.0/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/firebase_database/intermediates/merged_res/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/0ce5b9a2eeebcc59f515f2175a6446bd/transformed/jetified-play-services-base-18.1.0/res/color/common_google_signin_btn_text_light.xml"
+    }
+]

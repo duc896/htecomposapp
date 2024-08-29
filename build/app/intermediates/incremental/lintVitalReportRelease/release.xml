@@ -1,0 +1,38 @@
+<variant
+    name="release"
+    package="com.maantechnology.salesprosaasmain"
+    minSdkVersion="23"
+    targetSdkVersion="30"
+    shrinking="true"
+    mergedManifest="/Users/damquangduc/Projects/htecomposapp/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    manifestMergeReport="/Users/damquangduc/Projects/htecomposapp/build/app/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/Users/damquangduc/Projects/htecomposapp/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.1.3:/Users/damquangduc/development/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Users/damquangduc/Projects/htecomposapp/build/app/intermediates/lint_vital_partial_results/release/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/release/AndroidManifest.xml"
+        javaDirectories="src/release/java:src/release/kotlin"
+        resDirectories="src/release/res"
+        assetsDirectories="src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="/Users/damquangduc/Projects/htecomposapp/build/app/intermediates/javac/release/classes:/Users/damquangduc/Projects/htecomposapp/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      applicationId="com.htecom.htecompos"
+      generatedSourceFolders="/Users/damquangduc/Projects/htecomposapp/build/app/generated/ap_generated_sources/release/out:/Users/damquangduc/Projects/htecomposapp/build/app/generated/aidl_source_output_dir/release/out:/Users/damquangduc/Projects/htecomposapp/build/app/generated/source/buildConfig/release:/Users/damquangduc/Projects/htecomposapp/build/app/generated/renderscript_source_output_dir/release/out"
+      generatedResourceFolders="/Users/damquangduc/Projects/htecomposapp/build/app/generated/res/google-services/release:/Users/damquangduc/Projects/htecomposapp/build/app/generated/res/rs/release:/Users/damquangduc/Projects/htecomposapp/build/app/generated/res/resValues/release">
+  </mainArtifact>
+</variant>

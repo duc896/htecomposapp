@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_barcode_scanner/intermediates/merged_res/release/interpolator-v21/mtrl_fast_out_slow_in.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/7359a2e45f6446edfa164e3ccc776999/transformed/material-1.3.0/res/interpolator-v21/mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_barcode_scanner/intermediates/merged_res/release/interpolator-v21/mtrl_linear_out_slow_in.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/7359a2e45f6446edfa164e3ccc776999/transformed/material-1.3.0/res/interpolator-v21/mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_barcode_scanner/intermediates/merged_res/release/interpolator-v21/mtrl_fast_out_linear_in.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/7359a2e45f6446edfa164e3ccc776999/transformed/material-1.3.0/res/interpolator-v21/mtrl_fast_out_linear_in.xml"
+    }
+]

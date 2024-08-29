@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_pdfview/intermediates/merged_res/release/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/2bb193f44a08dd1d907a9dd31d976b37/transformed/core-1.7.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_pdfview/intermediates/merged_res/release/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/2bb193f44a08dd1d907a9dd31d976b37/transformed/core-1.7.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_pdfview/intermediates/merged_res/release/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/2bb193f44a08dd1d907a9dd31d976b37/transformed/core-1.7.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_pdfview/intermediates/merged_res/release/drawable-mdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/2bb193f44a08dd1d907a9dd31d976b37/transformed/core-1.7.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_pdfview/intermediates/merged_res/release/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/2bb193f44a08dd1d907a9dd31d976b37/transformed/core-1.7.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    }
+]

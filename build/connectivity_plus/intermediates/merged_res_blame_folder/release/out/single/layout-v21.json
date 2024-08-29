@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/connectivity_plus/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/8cbf109894c2443f5911a98bb16f988a/transformed/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/connectivity_plus/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/8cbf109894c2443f5911a98bb16f988a/transformed/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/connectivity_plus/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/8cbf109894c2443f5911a98bb16f988a/transformed/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/connectivity_plus/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/8cbf109894c2443f5911a98bb16f988a/transformed/core-1.6.0/res/layout-v21/notification_action.xml"
+    }
+]

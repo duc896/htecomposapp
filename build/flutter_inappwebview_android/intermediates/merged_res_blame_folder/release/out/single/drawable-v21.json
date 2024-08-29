@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_res/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/80789449c1a55be6c909630539ab3c3f/transformed/core-1.9.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_res/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_res/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_res/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_res/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_inappwebview_android/intermediates/merged_res/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]

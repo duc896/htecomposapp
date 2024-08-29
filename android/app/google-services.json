@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "465645754556",
+    "firebase_url": "https://htecom-pos-admin-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "htecom-pos-admin",
+    "storage_bucket": "htecom-pos-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465645754556:android:810687ac30b8db4a2158b9",
+        "android_client_info": {
+          "package_name": "com.htecom.htecompos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkH3eT4IoX5sDHfDK2Na5advDmJH7hNUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

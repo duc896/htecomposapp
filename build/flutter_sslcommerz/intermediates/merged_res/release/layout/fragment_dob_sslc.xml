@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".view.fragment.SSLCMobileBankingFragment">
+
+    <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_page_title"
+        android:layout_marginTop="16dp"
+        android:text="@string/ssl_confirm_mobile_number_for_security"/>
+
+    <include  layout="@layout/layout_login_sslc" />
+    <include layout="@layout/layout_otp_box_sslc" />
+
+    <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+        android:id="@+id/tv_term_condition_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/ssl_term_condition_bold" />
+
+    <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/a_single_monthly_transaction_limit_600_taka" />
+    <com.sslwireless.sslcommerzlibrary.view.custom.SSLCCustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/b_yearly_transaction_limit_3000_taka" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/dob_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_alignParentLeft="true"
+            android:padding="1dp" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_bank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_alignParentRight="true"
+            android:padding="1dp"
+            app:srcCompat="@drawable/ic_sslcommerz" />
+    </RelativeLayout>
+</LinearLayout>

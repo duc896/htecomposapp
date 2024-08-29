@@ -1,0 +1,622 @@
+[
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_card1_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_card1_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/progress_bar.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/progress_bar.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/material_ic_keyboard_arrow_right_black_24dp.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/material_ic_keyboard_arrow_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_visa_grey.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_visa_grey.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_keyboard_black_24dp.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/ic_keyboard_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_btn_radio_material_anim.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_btn_radio_material_anim.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/material_cursor_drawable.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/material_cursor_drawable.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_star_black_48dp.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_star_black_48dp.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/tab_background_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/tab_background_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/avd_show_password.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/avd_show_password.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_mtrl_chip_checked_black.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/ic_mtrl_chip_checked_black.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_clock_black_24dp.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/ic_clock_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_offer_new_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_offer_new_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_login_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_login_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/mtrl_dialog_background.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/mtrl_dialog_background.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_mtrl_checked_circle.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/ic_mtrl_checked_circle.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_mtrl_chip_close_circle.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_btn_check_material_anim.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_btn_check_material_anim.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_help_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_help_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/mtrl_ic_error.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/mtrl_ic_error.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/bg_border_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/bg_border_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_cvc_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_cvc_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/custom_btn_clementine_normal_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/custom_btn_clementine_normal_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/tooltip_frame_dark.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/80789449c1a55be6c909630539ab3c3f/transformed/core-1.9.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_mtrl_chip_checked_circle.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/navigation_empty_icon.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/cursor.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/cursor.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/mtrl_popupmenu_background.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/mtrl_popupmenu_background.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_btn_check_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/material_ic_calendar_black_24dp.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/material_ic_calendar_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/design_ic_visibility.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/custom_btn_clementine_pressed_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/custom_btn_clementine_pressed_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/custom_btn_punch_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/custom_btn_punch_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/btn_checkbox_checked_mtrl.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/btn_checkbox_checked_mtrl.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_offers4_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_offers4_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/mtrl_popupmenu_background_dark.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/mtrl_popupmenu_background_dark.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/design_ic_visibility_off.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/custom_btn_polo_blue_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/custom_btn_polo_blue_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_visa_new.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_visa_new.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_currency.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_currency.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/custom_btn_disable_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/custom_btn_disable_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/bg_border_colored_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/bg_border_colored_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/material_ic_keyboard_arrow_left_black_24dp.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/material_ic_keyboard_arrow_left_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/test_custom_background.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/test_custom_background.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/btn_checkbox_unchecked_mtrl.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_pay_later.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_pay_later.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_list_divider_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/btn_radio_off_mtrl.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/btn_radio_off_mtrl.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_dinnerclub_grey.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_dinnerclub_grey.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_info_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_info_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/mtrl_ic_cancel.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/mtrl_ic_cancel.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/80789449c1a55be6c909630539ab3c3f/transformed/core-1.9.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/mtrl_dropdown_arrow.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/mtrl_dropdown_arrow.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_unionpay_grey.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_unionpay_grey.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/design_snackbar_background.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_bkash_with_text.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_bkash_with_text.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/custom_btn_clementine.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/custom_btn_clementine.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/bg_border_gray_filled_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/bg_border_gray_filled_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/session_timeout_background_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/session_timeout_background_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_edit_text_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/material_ic_menu_arrow_up_black_24dp.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/material_ic_menu_arrow_up_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/bg_border_lochmara_colored_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/bg_border_lochmara_colored_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/btn_radio_on_to_off_mtrl_animation.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/btn_radio_on_to_off_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/80789449c1a55be6c909630539ab3c3f/transformed/core-1.9.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_amex_grey.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_amex_grey.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/bg_action_outlined_gray.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/bg_action_outlined_gray.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/tooltip_frame_light.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/btn_radio_on_mtrl.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_mastercard_new.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_mastercard_new.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/80789449c1a55be6c909630539ab3c3f/transformed/core-1.9.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/toast_background_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/toast_background_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/round_white_background_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/round_white_background_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/mtrl_ic_arrow_drop_down.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/mtrl_ic_arrow_drop_down.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/test_level_drawable.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/test_level_drawable.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/btn_radio_off_to_on_mtrl_animation.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/btn_radio_off_to_on_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_offers2_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_offers2_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_takapay_grey.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_takapay_grey.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_dinnerclub.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_dinnerclub.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_ic_menu_selectall_mtrl_alpha.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_ic_menu_selectall_mtrl_alpha.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/circle_background_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/circle_background_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_vector_test.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/66ce2d2b21955a0360252318d2f01193/transformed/jetified-appcompat-resources-1.6.1/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_headphone_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_headphone_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/solid_background_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/solid_background_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_overlay_tick_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_overlay_tick_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_ic_menu_cut_mtrl_alpha.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_ic_menu_cut_mtrl_alpha.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_unionpay.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_unionpay.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/material_ic_menu_arrow_down_black_24dp.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/material_ic_menu_arrow_down_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_master.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_master.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_amex.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_amex.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/material_ic_clear_black_24dp.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/material_ic_clear_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/design_password_eye.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/design_fab_background.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/border_color_selector_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/border_color_selector_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_ic_menu_share_mtrl_alpha.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_ic_menu_share_mtrl_alpha.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/rectangular_corner_shape_round_gallery_inside_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/rectangular_corner_shape_round_gallery_inside_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_visa.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_visa.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/bg_bnpl_card.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/bg_bnpl_card.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_sslcommerz.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_sslcommerz.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/more_info_layout_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/more_info_layout_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/material_ic_edit_black_24dp.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/material_ic_edit_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_notification_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_notification_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/mtrl_tabs_default_indicator.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/mtrl_tabs_default_indicator.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/badge_background_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/badge_background_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/spinner_background_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/spinner_background_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_takapay.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_takapay.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_amex_new.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_amex_new.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_offer_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_offer_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/recangle_layout_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/recangle_layout_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_star_half_black_48dp.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_star_half_black_48dp.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_tap_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_tap_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/mtrl_ic_arrow_drop_up.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/mtrl_ic_arrow_drop_up.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/avd_hide_password.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/drawable/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/tab_unselected_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/tab_unselected_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_back_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_back_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/tab_selected_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/tab_selected_sslc.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/ic_master_grey.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/ic_master_grey.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/026571e42a82690747020638e2726773/transformed/appcompat-1.6.1/res/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/color_cursor.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/color_cursor.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/drawable/rectangular_corner_shape_round_transperent_inside_sslc.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/9e255785d4a9382b3baab0258868481b/transformed/jetified-sslcommerzlibrary/res/drawable/rectangular_corner_shape_round_transperent_inside_sslc.xml"
+    }
+]

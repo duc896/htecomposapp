@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/anim-v21/fragment_fast_out_extra_slow_in.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/2f4d933515d1df11b3a101fe89b0e890/transformed/fragment-1.3.6/res/anim-v21/fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/anim-v21/mtrl_bottom_sheet_slide_out.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/anim-v21/mtrl_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/damquangduc/Projects/htecomposapp/build/flutter_sslcommerz/intermediates/merged_res/release/anim-v21/mtrl_bottom_sheet_slide_in.xml",
+        "source": "/Users/damquangduc/.gradle/caches/transforms-3/f7a4e4e2140b72458fd586e05544e8ba/transformed/material-1.3.0-alpha03/res/anim-v21/mtrl_bottom_sheet_slide_in.xml"
+    }
+]
